@@ -1,0 +1,3 @@
+Land outlines: Natural Earth, public domain. ne_110m_land.geojson
+https://github.com/nvkelso/natural-earth-vector
+Colors and lights are an artistic visualization, not a map of company coverage.

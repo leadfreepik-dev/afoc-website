@@ -99,3 +99,16 @@
 .footer-links{display:grid;grid-template-columns:repeat(3,1fr);gap:45px}.footer-links>div{display:flex;flex-direction:column;gap:10px}.footer-links span{font-size:6px;letter-spacing:1.4px;color:#6e879c;margin-bottom:9px}.footer-links a{font-size:10px;color:#a4b5c3}.footer-links a:hover{color:#fff}
 @media(max-width:1050px){.company-pillars,.project-grid,.insight-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.about-hero,.projects-head,.insights-head,.contact-head{grid-template-columns:1fr;gap:24px}.about-stats{grid-template-columns:1fr 1fr}.about-stats>div:nth-child(2){border-right:0}.about-stats>div:nth-child(-n+2){border-bottom:1px solid #a9b5bd66}.mission-grid,.company-pillars,.why-grid,.project-grid,.process-grid,.insight-grid,.contact-grid,.site-footer,.footer-links{grid-template-columns:1fr}.about-stats strong{font-size:22px}.project-grid article{min-height:180px}.partners-strip{grid-template-columns:1fr;gap:14px}.site-footer{gap:40px}.footer-links{gap:28px}}
+
+/* Standalone sitemap pages */
+.subpage-body{background:#050b15;color:var(--fg);min-height:100vh}
+.subpage-main{padding-top:105px}
+.subpage-header{position:fixed;top:0;left:0;right:0;background:rgba(3,10,18,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);z-index:50}
+.subpage-header .sub-nav{display:flex;gap:28px;align-items:center}
+.subpage-header .sub-nav a{font-size:10px;color:#c8d5e5}
+.subpage-header .sub-nav a:hover{color:#fff}
+.sub-contact{font-size:10px;border:1px solid #60778b;padding:12px 16px}
+.subpage-main>.section-pad{padding-top:90px}
+.subpage-body .about,.subpage-body .products,.subpage-body .projects,.subpage-body .insights,.subpage-body .contact{min-height:calc(100vh - 105px)}
+@media(max-width:900px){.subpage-header .sub-nav{gap:16px}.subpage-header .sub-nav a{font-size:9px}.sub-contact{display:none}}
+@media(max-width:700px){.subpage-header{height:auto;min-height:90px;align-items:flex-start;padding-bottom:18px}.subpage-header .sub-nav{position:absolute;left:6%;right:6%;top:63px;overflow-x:auto;white-space:nowrap;padding-bottom:4px}.subpage-header .brand{margin-bottom:24px}.subpage-main{padding-top:118px}}
